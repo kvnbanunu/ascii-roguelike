@@ -2,20 +2,18 @@
 This is a personal project to create a traditional roguelike game and learn python.
 
 ## Version details
-This version is as spaghetti as it gets.
+This prototype version utilizes the python-tcod package.
 
-The goal for this was just to learn basic methods for map movement, battle, and shopping.
+This will most likely become the base for release.
 
 Features include:
-
-- Simple UI that displays character stats and menu
-- Randomly spawning enemies
-- A shop to buy potions and upgrade your weapon
-- A mayor that gives you a key if you're strong enough
-- Use the key to fight the Dragon boss
+- Entities represented by ASCII characters
+- Procedurally generated rooms and tunnels
 
 ## How to run
 1. Clone the repo or download the zip from github
-2. Run `./main.sh`
-    - if you get permission errors run `chmod +x main.sh` to grant execution permission.
+2. Run `./install.sh`
+    - this creates a virtual python environment and installs the latest version of tcod into the project directory
+3. Run `./main.sh`
+    - this executes python from within the virtual environment directory.
     
